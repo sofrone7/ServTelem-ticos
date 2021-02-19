@@ -1,0 +1,115 @@
+<!DOCTYPE HTML>
+<html manifest="manifest.appcache">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<head>
+	<link rel="stylesheet" type="text/css" href="css/iroom.css">
+	<meta http-equiv="Expires" content="0">
+  	<meta http-equiv="Last-Modified" content="0">
+  	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  	<meta http-equiv="Pragma" content="no-cache"> 
+	<script type="text/javascript" src="datos.js"></script>
+	<script>
+
+		function limite() {
+		var elX = document.getElementById("a");
+		var elY = document.getElementById("b");
+		elY.value=Math.min(elX.value,elY.value);
+		}
+	</script>
+</head>
+
+<body>
+<div class="config">
+
+ <div class="f">
+  <div class="w3-container w3-dark-gray">
+	<h1> Smart Room Project </h1>
+  </div> 
+ </div>	
+
+ <div class="g">
+  <div class="w3-container w3-half">
+	<h2> Datos de la habitaci&oacuten </h2>
+	<form>
+	<div class="datalist-holder">
+    	Pa&iacutes:<input list="country" name="country" class="datalist-input" /><br>
+    	<datalist id="country">
+        	<option value="Afghanistan" />
+        	<option value="Bolivia" />
+        	<option value="China" />
+        	<option value="Dinamarca" />
+        	<option value="Etiopia" />
+        	<option value="Francia" />
+        	<option value="Ghana" />
+        	<option value="Holanda" />
+        	<option value="Italia" />
+        	<option value="Jamaica" />
+    	</datalist>
+	</div>
+	</form>
+	<form> <!--Pa&iacutes: <input name="pais" list="country" class="datalist-input"></br> -->
+			
+		Ciudad: <input name="ciudad" type="text"> <br> 
+		Coordenadas GPS: <input name="gps" type="text"> <br>
+		Mapa URL: <input name="url" type="url"> <br>
+	</form>
+	<form action="upload.php" method="post" enctype="multipart/form-data">
+		Foto:
+		<input type="file" name="fileToUpload" id="fileToUpload">
+		<!-- <input type="submint" value="Subir foto" name="submint">-->
+	</form>
+	<form>
+		Contrase&ntildea:<input name="pwd" type="password"><br>
+		</br>
+		<!--<button name="bt" type="submit" href="datos.js">Enviar datos</button>-->
+		<button onclick="functionDatos()">Enviar datos</button>
+	</form>
+  </div>
+ </div>
+
+ <div class="h">
+  <div class="w3-container w3-half">
+	<h2> Seleccione los sensores </h2>
+	<form>
+		<input name="Temperatura" value="yes" type="checkbox">Temperatura<br>
+		<input name="Humedad" value="yes" type="checkbox">Humedad<br>
+		<input name="Sonido" value="yes" type="checkbox">Nivel de sonido<br>
+		<input name="Luz" value="yes" type="checkbox">Nivel de luz<br>
+		<input name="Movimiento" value="yes" type="checkbox">Movimiento<br>
+	</form>
+	<h2> Configure alertas </h2>
+	<form oninput="x.value=parseInt(a.value)-parseInt(b.value)">
+		Temperatura m&aacutexima: <br>
+		<input type="number" id="a" value="0" min="-15" max="40" onchange="limite()"><br>
+		Temperatura m&iacutenima: <br>
+		<input type="number" id="b" value="0" min="-15" max="40" onchange="limite()"><br>
+		Diferencia:<output name="x" for="a b"></output>
+	</form>
+
+  </div>
+ </div>
+
+
+
+
+ <div class="footer">
+ 	<div class="volver">
+ 		<div class="w3-container w3-light-gray">
+        <p><a class="ref3" href="index.html">Volver a la pagina principal </a></p>
+    	</div>
+	</div>
+        <p> Universidad de Alcal&aacute </p>
+ </div>
+
+ 
+</div>
+
+ 
+</body>
+
+
+
+
+</html>
