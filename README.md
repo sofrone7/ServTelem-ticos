@@ -25,7 +25,7 @@ dirección de correo electrónico.
 **-Práctica5:** Desarrollo de aplicaciones en el lado del servidor. Python y el micro-Framework Flask.
 - Se aprovechará todo el material generado anteriormente durante el curso para finalmente tener una aplicación web completa.
 - La aplicación obtiene información de sensores (temperatura, humedad, luz, sonido, movimiento) de una habitación con la intención de visualizarlos en una página. Además, podrá cambiar el color de la iluminación.
--La práctica comprende tres partes:
+- La práctica comprende tres partes:
   - Parte 1: Diseño de aplicación que hace de interfaz entre la base de datos y el sistema de
 sensores IROOM.
   - Parte 2: Desarrollo de la aplicación web I: lectura la información de los sensores desde la base
