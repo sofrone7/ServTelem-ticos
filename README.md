@@ -15,6 +15,7 @@ dirección de correo electrónico.
 **-Práctica3:** JavaScript, jQuery y Ajax.
 - Implementar una página web llamada galería.html, que incorpore los estilos globales de las prácticas anteriores. En está nueva página, se deberá encontrar una galería de imágenes de los alrededores de las distintas estaciones meteorológicas que tendremos en la aplicación final.
 - Generar una única página web llamada tablas.html en la que aparezcan los datos de Ciudad, Temperatura, Humedad, Ruido, Nivel de luz, asi como el color de la iluinación.
+- Muestra de tablas con Ajax: El envío de los datos deberá de hacerse mediante un fichero XML y ser tratado mediande JavaScript para una de las tablas, y en formato JSON y tratado con jQuery para otra.
 
 **-Práctica4:** Base de Datos
 -Creación de la base de datos mediante Gestor web de MySQL y continuación por consola.
