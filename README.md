@@ -2,7 +2,7 @@
 
 **-Práctica1:** Elementos de HTML5 y CSS3
 - Elementos básicos de HTML, enlaces, imágenes, listas, tablas, formularios, formateo de texto.
-- Trabajar con capas (Layout), aplicar hojas de estilo, autenticación, datos locales y eventos.
+- Trabajar con capas (Layout), aplicar hojas de estilo, autenticación, datos locales (minombre.html) y eventos.
 
 **-Práctica2:** JavaScript
 - Incorporar al formulario de las páginas generadas en las semanas anteriores, un sistema por el cual mediante JavaScript se incorpore una verificación de los valores introducidos para cada campo del formulario.
