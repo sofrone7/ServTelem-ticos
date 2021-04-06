@@ -18,7 +18,7 @@ dirección de correo electrónico.
 - Muestra de tablas con Ajax: El envío de los datos deberá de hacerse mediante un fichero XML y ser tratado mediande JavaScript para una de las tablas, y en formato JSON y tratado con jQuery para otra.
 
 **-Práctica4:** Base de Datos
--Creación de la base de datos mediante Gestor web de MySQL y continuación por consola.
+- Creación de la base de datos mediante Gestor web de MySQL y continuación por consola.
 - Inserción de datos desde la consola MySQL, mediante un archivo de texto con LOAD DATA INFILE y mediante un archivo de texto que contenga los comandos SQL (batch mode).
 - Realización de búsquedas.
 - Realización de Backup y restauración de BDs.
